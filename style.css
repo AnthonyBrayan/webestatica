@@ -14,8 +14,8 @@
 }
 
 header {
-    height: 70px;
-    /* background: #AED6F1; */
+    height: 80px;
+    text-align: center;
     background: #fbc101;
     padding: 0 50px;
     color: black;
@@ -99,5 +99,35 @@ header {
     #check:checked~.menu {
         right: 0;
     }
+}
 
+.banner {
+    width: 100%;
+    /* background-size: cover; */
+    /* position: relative; */
+    /* display: inline-block; */
+    text-align: center;
+    background-image: url(img/banner.PNG);
+    height: 850px;
+    background-size: cover;
+    background-color: #ffe75c;
+    /* height: 420px; */
+    /* position: relative;      */
+    /* overflow: hidden; */
+    /* background: #000; */
+    /* margin: 20px 0; */
+}
+
+.banner h2 {
+    position: absolute;
+    top: 26%;
+    left: 63%;
+    font-size: 20px;
+}
+
+.banner p {
+    position: absolute;
+    top: 32%;
+    left: 63%;
+    font-size: 45px;
 }
