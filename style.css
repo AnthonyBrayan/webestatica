@@ -321,7 +321,7 @@ header {
 
 .containertComment {
     width: 80%;
-    height: 40%;
+    height: 50%;
     position: relative;
     margin-left: 100px;
     background-color: #dfecf4;
@@ -338,13 +338,37 @@ header {
 .box6 #imgSeñora {
     width: 13vw;
     height: 12vw;
-    margin-top: 15px;
+    margin-top: 45px;
     margin-left: 9.5vw;
     position: absolute;
 }
 
 .cinco-estrellas {
+    margin-left: 25.5vw;
+    margin-top: -15vw;
     position: absolute;
+}
+
+.containertComment #textComment {
+    width: 17vw;
+    margin-left: 25.5vw;
+    margin-top: -12vw;
+    color: black;
+    font-size: 20px;
+}
+
+#name-mia {
+    width: 17vw;
+    margin-left: 25.5vw;
+    margin-top: 2vw;
+    color: black;
+    font-size: 19px;
+}
+
+.box6 .containertComment #viñetas {
+    margin-top: -5.9vw;
+    display: flex;
+    justify-content: space-between;
 }
 
 .box7 {
