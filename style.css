@@ -4,7 +4,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Head */
 .icon {
     width: 60px;
 }
@@ -24,7 +23,6 @@ header {
     background: #fbc101;
     padding: 0 50px;
     color: black;
-    /*Aplicamos el display flex*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,7 +32,6 @@ header {
     color: black;
     text-transform: uppercase;
     text-decoration: none;
-    /*0 px de arriba y de izquierda y derecha de 10 px*/
     padding: 0 30px;
     transition: 0.4s;
 }
@@ -47,7 +44,6 @@ header {
     transition: 0.4s;
 }
 
-/* Otras de las opciones que nos da el flex box es que podemos poner un orden */
 .show-menu {
     order: 1;
 }
@@ -62,10 +58,8 @@ header {
     display: none;
 }
 
-/* Responsive */
 @media (max-width:768px) {
 
-    /* HEADER */
     .show-menu,
     .hide-menu {
         display: block;
@@ -79,18 +73,16 @@ header {
         right: -100%;
         top: 0;
         text-align: center;
-        /* Arriba y abajo 100 px y 0 izquierda y derecha */
         padding: 100px 0px;
-        /* Para que si agregemos otros elemento no se pisen agregamos un z-index */
         z-index: 100;
         transition: 0.8s;
     }
 
-    /* Configurar los enlaces */
+
     .menu a {
-        /* Hacemos para que se pongan en columna */
+
         display: block;
-        /* Para que se separen un poco */
+
         padding: 20px;
     }
 
@@ -100,11 +92,9 @@ header {
         right: 40px;
     }
 
-    /* Usamos el seudoSelector (Cuando el check esté checkeado)*/
     #check:checked~.menu {
         right: 0;
     }
-
 }
 
 .box3 {
@@ -180,17 +170,185 @@ header {
     margin-top: 1vw;
 }
 
-.box3 .textBox3 .timeline-container .timeline2 .img-text .texto {
-    width: 10vw;
-    height: 6.5vw;
+.box3 .textBox3 .timeline-container .timeline2 .img-text p {
+    width: 12vw;
     margin-top: 1vw;
-    text-align: center;
 }
 
 .box4 {
-    background-color: #fbc101;
+    background-color: #dfecf4;
     margin-top: 35%;
+    width: 100%;
+    height: 37vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
 
+.box4 .text-box4 {
+    width: 26vw;
+    padding: 3vw;
+    position: absolute;
+    margin-left: 50vw;
+}
+
+.box4 .text-box4 h2 {
+    font-size: 1vw;
+}
+
+#titulo {
+    width: 35vw;
+    margin-top: 1vw;
+    font-size: 3.8vw;
+}
+
+.box4 .text-box4 p {
+    margin-top: 1vw;
+}
+
+.img-box4 {
+    margin-top: 10px;
+    display: flex;
+}
+
+#person1 {
+    position: absolute;
+    margin-top: -5vw;
+    margin-left: 17vw;
+    padding: 1vw;
+}
+
+#person2 {
+    width: 220px;
+    height: 550px;
+    position: absolute;
+    margin-top: -3vw;
+    margin-left: 25vw;
+    padding: 5vw;
+}
+
+#person3 {
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    margin-top: 16.55vw;
+    margin-left: 40vw;
+    padding: 2vw;
+}
+
+#person4 {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    margin-top: 1.5vw;
+    margin-left: 30.6vw;
+    padding: 2vw;
+}
+
+#person5 {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    margin-top: 16.5vw;
+    margin-left: 51.6vw;
+    padding: 2vw;
+}
+
+.box5Contenedor {
+    height: 15vw;
+    padding: 5vw;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.box5Contenedor p {
+    margin-top: 1vw;
+}
+
+.parrafoBox5 {
+    width: 100px;
+    margin-left: 4.5vw;
+}
+
+.box5Contenedor img {
+    width: 4vw;
+    height: 4vw;
+    margin-top: 2vw;
+}
+
+.box5Contenedor .boxBox5 {
+    width: 15vw;
+    height: 15vw;
+    background-color: #fbc101;
+}
+
+.box5Contenedor .boxBox5 div {
+    display: flex;
+    justify-content: center;
+}
+
+.box5Contenedor .boxBox5 div p {
+    margin-top: 2.2vw;
+}
+
+.box5Contenedor .imagenflechaderecha {
+    width: 40px;
+    height: 30px;
+}
+
+.box6 {
+    background-color: black;
+    width: 100%;
+    height: 35vw;
+    position: relative;
+}
+
+.textBox6 {
+    color: white;
+    padding: 5vw;
+    margin-left: 1.5vw;
+}
+
+.textBox6 p {
+    font-size: 0.99vw;
+}
+
+.textBox6 h2 {
+    margin-top: 30px;
+    font-size: 2.1vw;
+}
+
+.containertComment {
+    width: 80%;
+    height: 40%;
+    position: relative;
+    margin-left: 100px;
+    background-color: #dfecf4;
+    border-radius: 20px;
+}
+
+.column-orange-comment {
+    width: 10%;
+    height: 100%;
+    margin-left: 15%;
+    background-color: #fbc101;
+}
+
+.box6 #imgSeñora {
+    width: 13vw;
+    height: 12vw;
+    margin-top: 15px;
+    margin-left: 9.5vw;
+    position: absolute;
+}
+
+.cinco-estrellas {
+    position: absolute;
+}
+
+.box7 {
+    background-color: blueviolet;
     width: 100%;
     height: 25vw;
 }
