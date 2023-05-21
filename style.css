@@ -301,72 +301,73 @@ header {
 .box6 {
     background-color: black;
     width: 100%;
-    height: 35vw;
-    position: relative;
+    height: 50vw;
 }
 
-.textBox6 {
+.head-box6 {
+    padding: 5%;
+    font-size: 25px;
     color: white;
-    padding: 5vw;
-    margin-left: 1.5vw;
 }
 
-.textBox6 p {
-    font-size: 0.99vw;
+.conteiner-box6 {
+    margin-left: 8%;
 }
 
-.textBox6 h2 {
-    margin-top: 30px;
-    font-size: 2.1vw;
+.h2-box6 {
+    margin-top: 2%;
 }
 
-.containertComment {
+.body-box6 {
+    width: 100%;
+    height: 60%;
+}
+
+.containert-comment {
     width: 80%;
-    height: 50%;
-    position: relative;
-    margin-left: 100px;
+    height: 100%;
+    margin-left: 10%;
     background-color: #dfecf4;
     border-radius: 20px;
 }
 
 .column-orange-comment {
-    width: 10%;
+    width: 15%;
     height: 100%;
     margin-left: 15%;
+    margin-top: -31.6%;
     background-color: #fbc101;
 }
 
 .box6 #imgSeñora {
-    width: 13vw;
-    height: 12vw;
-    margin-top: 45px;
-    margin-left: 9.5vw;
-    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    margin-top: 6%;
+    margin-left: 8.5vw;
 }
 
 .cinco-estrellas {
-    margin-left: 25.5vw;
-    margin-top: -15vw;
-    position: absolute;
+    margin-left: 33vw;
+    margin-top: -25vw;
 }
 
-.containertComment #textComment {
-    width: 17vw;
-    margin-left: 25.5vw;
-    margin-top: -12vw;
+#textComment {
+    width: 38vw;
+    margin-left: 32.5vw;
+    margin-top: 1vw;
     color: black;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 #name-mia {
     width: 17vw;
-    margin-left: 25.5vw;
-    margin-top: 2vw;
+    margin-left: 32.5vw;
+    margin-top: 1vw;
     color: black;
-    font-size: 19px;
+    font-size: 25px;
 }
 
-.box6 .containertComment #viñetas {
+#viñetas {
     margin: 3vw;
     margin-top: -8vw;
     display: flex;
