@@ -105,6 +105,7 @@ header {
 .banner img {
     width: 100%;
     height: auto;
+    position: relative;
 }
 
 .container-div {
@@ -113,6 +114,35 @@ header {
     position: absolute;
     top: 13vw;
     left: 60vw;
+}
+
+.button {
+    width: 30%;
+    height: auto;
+    position: absolute;
+    top: 30vw;
+    left: 60vw;
+    color: white;
+    display: flex;
+}
+
+.button-one {
+    width: 150px;
+    padding: 12px;
+    border-radius: 10%;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+
+.button-two {
+    width: 150px;
+    padding: 12px;
+    margin-left: 20px;
+    border-radius: 10%;
+    font-size: 15px;
+    background-color: black;
+    color: white;
 }
 
 .container-div h2 {
