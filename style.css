@@ -135,8 +135,8 @@ header {
 }
 
 .timeline {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    margin-left: 3.5vw;
     border-top: 0.2vw dotted #ADD8E6;
     display: flex;
     justify-content: space-evenly;
@@ -150,6 +150,7 @@ header {
     width: 3vw;
     height: 3vw;
     border-radius: 50%;
+    margin-left: -3.5vw;
 }
 
 .timeline2 {
@@ -366,13 +367,114 @@ header {
 }
 
 .box6 .containertComment #viñetas {
-    margin-top: -5.9vw;
+    margin: 3vw;
+    margin-top: -8vw;
     display: flex;
     justify-content: space-between;
 }
 
 .box7 {
-    background-color: blueviolet;
     width: 100%;
-    height: 25vw;
+    height: 40vw;
+}
+
+.timeline-box7 {
+    width: 87%;
+    margin-left: 6.45vw;
+    margin-top: -3vw;
+    border-top: 0.2vw dotted #ADD8E6;
+    text-align: center;
+}
+
+.box7 .head-box7 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box7 .head-box7 .box {
+    margin: 6vw;
+    display: flex;
+}
+
+.box7 .head-box7 .box div {
+    margin-right: 1vw;
+}
+
+.box7 .head-box7 .box img {
+    width: 3vw;
+}
+
+.box7 .head-box7 .box p {
+    margin-top: 0.8vw;
+    font-size: small;
+}
+
+.box7 .head-box7 .box h2 {
+    margin-top: 0.5vw;
+}
+
+.box7 .container-box7 {
+    margin: 1%;
+}
+
+.box7 .container-box7 .section-box7 {
+    margin-left: 4%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box7 .container-box7 .section-box7 .tree-columns .container-tree-columns {
+    margin: 3%;
+    display: flex;
+
+}
+
+.box7 .container-box7 .section-box7 .two-columns .container-two-columns {
+    width: 375px;
+    margin: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box7 .container-box7 .section-box7 .two-columns .container-two-columns .two-columns-a p {
+    height: 40px;
+}
+
+.box7 .container-box7 .section-box7 .two-columns .container-two-columns .two-columns-b p {
+    width: 230px;
+    height: 40px;
+}
+
+.box8 {
+    background-color: #ADD8E6;
+    width: 100%;
+    height: 10vw;
+}
+
+.box8 .contairne-box8 {
+    margin: 50px;
+    height: 100%;
+}
+
+.box8 .contairne-box8 .section-box8 {
+    margin: 3%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13.5px;
+}
+
+.box8 .contairne-box8 .section-box8 .column-one {
+    margin-top: 6%;
+}
+
+.box8 .contairne-box8 .section-box8 .column-two {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+
+.box8 .contairne-box8 .section-box8 .column-two p {
+    margin-right: 10px;
 }
